@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Details</title>
     
 </head>
 <body>
+    <div class="center">
     <h1>user details</h1>
     <form name="login" method="post" action="" >
+        <div class="txt_field">
         <label for="cname">Customer Name:</label>
-        <input type="text" id="cname" name="cname"><br>
+        <input type="text" id="cname" name="cname" required><br>
+        </div>
+        <div class="txt_field">
         <label for="cid">Customer ID:</label>
-        <input type="text" id="cid" name="cid"><br>
+        <input type="text" id="cid" name="cid" reqired><br>
+        </div>
+        <div class="txt_field">
         <label for="country">Residential Country</label>
-        <select name="country" id="country">
+        <select name="country" id="country" required>
            <option value="af">AF</option>
            <option value="ji">JI</option>
            <option value="pk">PK</option>
@@ -24,6 +30,11 @@
            <option value="tr">TR</option>
            <option value="sr">SR</option>
         </select>
+        </div>
+        <div class="indexpglink">
+            ratings <a href="#">rating</a>
+          </div>
     </form>
+    </div>
 </body>
 </html>
